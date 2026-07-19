@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FL Tecnologia — Soluções de backoffice, conciliação CNAB e Open Finance</title>
+  <meta name="description" content="Conciliação multi-fonte, integrações CNAB e Open Finance, custódia, cadastro unificado e automação de backoffice para operações financeiras." />
+  <link rel="stylesheet" href="src/css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <a href="index.html" class="logo">FL<span>.</span> Tecnologia</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="solucoes.html" class="nav-link--active">Soluções</a>
+        <a href="index.html#como">Como funciona</a>
+        <a href="index.html#contato" class="nav-cta">Falar comigo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">CNAB · Open Finance · Custódia · Batch</span>
+      <h1>Soluções de backoffice e integração para <span class="accent">operações financeiras</span></h1>
+      <p class="lead">
+        15 anos construindo sistemas em XP Investimentos, Neon, Banco Carrefour e Banco ABC.
+        Desenvolvo conciliação, integrações e automação com o rigor que operação financeira exige.
+      </p>
+    </div>
+  </section>
+
+  <section id="conciliacao">
+    <div class="wrap">
+      <h2 class="section-title">Conciliação e batimento operacional</h2>
+      <p class="section-sub">Reduzir horas de planilha, eliminar erros tardios e dar rastreabilidade para auditoria.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ic">🔁</div>
+          <h3>Conciliação multi-fonte</h3>
+          <ul class="card-tech-list">
+            <li>Extratos OFX/CNAB, webhooks PIX e ledger interno</li>
+            <li>Batimento D+0/D+1 com tratamento de pendências</li>
+            <li>Adquirentes: liquidação, chargebacks e taxas MDR</li>
+          </ul>
+          <p>Fechamento diário previsível, sem planilha na madrugada.</p>
+        </div>
+        <div class="card">
+          <div class="ic">📊</div>
+          <h3>Fechamento diário</h3>
+          <ul class="card-tech-list">
+            <li>Batimento de ordens vs execuções vs custódia (B3, OTC)</li>
+            <li>Conciliação de NAV: administrador vs custodiante vs gestor</li>
+            <li>Jobs batch, alertas de divergência e fila de exceções</li>
+          </ul>
+          <p>Operação fecha no prazo, com exceções visíveis e rastreáveis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="integracoes" class="offer">
+    <div class="wrap">
+      <h2 class="section-title">Integrações bancárias e de mercado</h2>
+      <p class="section-sub">Pontes confiáveis entre sistemas legados e novos, com tratamento de falha e observabilidade.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ic">🔌</div>
+          <h3>CNAB e Open Finance</h3>
+          <ul class="card-tech-list">
+            <li>Remessa/retorno CNAB 240/400, cobrança e pagamentos</li>
+            <li>Open Finance: OAuth, consentimento, polling de extratos</li>
+            <li>Core bancário: APIs REST/SOAP, filas, retry, dead-letter</li>
+          </ul>
+          <p>Integração bancária estável, com retorno conciliável de ponta a ponta.</p>
+        </div>
+        <div class="card">
+          <div class="ic">🏦</div>
+          <h3>Mercado e custódia</h3>
+          <ul class="card-tech-list">
+            <li>Custodiantes e administradores: BTG, Mellon, Intrag</li>
+            <li>B3 e mercado de capitais: SINACOR, eventos corporativos</li>
+            <li>Sincronização de posições e movimentações entre sistemas</li>
+          </ul>
+          <p>Posições e movimentações alinhadas entre corretora, custódia e backoffice.</p>
+        </div>
+        <div class="card">
+          <div class="ic">💳</div>
+          <h3>Pagamentos e adquirentes</h3>
+          <ul class="card-tech-list">
+            <li>SPI, DICT, webhooks PIX e idempotência</li>
+            <li>Gateways: settlement, split e conciliação gateway vs ledger</li>
+            <li>Boletos e arquivos de retorno com batimento automatizado</li>
+          </ul>
+          <p>Fluxo de pagamentos conciliado, do gateway ao livro contábil operacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cadastro">
+    <div class="wrap">
+      <h2 class="section-title">Cadastro, dados mestres e compliance operacional</h2>
+      <p class="section-sub">Menos divergência entre sistemas, menos risco operacional e retrabalho.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ic">🗂️</div>
+          <h3>Master data e sync</h3>
+          <ul class="card-tech-list">
+            <li>Fonte única de cadastro cliente/conta</li>
+            <li>Sync CRM ↔ core ↔ custódia</li>
+            <li>Batch de enriquecimento e validação CPF/CNPJ</li>
+          </ul>
+          <p>Cadastro consistente em todos os sistemas que dependem dele.</p>
+        </div>
+        <div class="card">
+          <div class="ic">🛡️</div>
+          <h3>Compliance operacional</h3>
+          <ul class="card-tech-list">
+            <li>PEP, listas restritivas e rotinas de atualização cadastral</li>
+            <li>Trilha de auditoria: log imutável, correlação de eventos, replay</li>
+            <li>Pipelines de dados para BACEN/CVM e gestão de exceções com SLA</li>
+          </ul>
+          <p>Processos auditáveis e filas de exceção com visibilidade operacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="automacao" class="offer">
+    <div class="wrap">
+      <h2 class="section-title">Automação de processos de backoffice</h2>
+      <p class="section-sub">Devolver horas do time e tornar o fechamento previsível.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ic">⚙️</div>
+          <h3>Batch e filas</h3>
+          <ul class="card-tech-list">
+            <li>Orquestração de rotinas batch: cron, SQS/Rabbit, idempotência</li>
+            <li>Monitoramento de fechamento: Slack/PagerDuty, SLA de conciliação</li>
+            <li>Alertas de divergência e reprocessamento controlado</li>
+          </ul>
+          <p>Rotinas críticas rodando sozinhas, com alerta quando algo sai do trilho.</p>
+        </div>
+        <div class="card">
+          <div class="ic">🛠️</div>
+          <h3>Internal tools e ETL</h3>
+          <ul class="card-tech-list">
+            <li>Painéis de exceção e reprocessamento manual assistido</li>
+            <li>ETL operacional: ingestão, transformação, carga em DW/operacional</li>
+            <li>Migração de planilhas para API/job com validações</li>
+          </ul>
+          <p>Ferramentas internas que o time usa no dia a dia, sem depender de planilha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer">
+    <div class="wrap final-cta">
+      <h2>Tem um processo parecido?</h2>
+      <p>20 minutos pra entender seu cenário e ver se faz sentido trabalharmos juntos. Sem compromisso.</p>
+      <div class="contact-list">
+        <a href="index.html#contato" class="btn btn-primary">Falar comigo →</a>
+        <a href="index.html#como" class="btn btn-ghost">Como funciona</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      FL Tecnologia · Automação de backoffice e conciliação para empresas financeiras · © 2026
+    </div>
+  </footer>
+
+</body>
+</html>
